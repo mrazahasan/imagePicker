@@ -35,6 +35,7 @@ export class ItemsComponent implements OnInit {
     }
 
     cameraOpen(){
+        camera.requestPermissions();
         if (!camera.isAvailable()) {
             alert('You didn\'t allow the app to use camera');
             return;
