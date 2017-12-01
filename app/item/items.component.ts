@@ -105,7 +105,7 @@ export class ItemsComponent implements OnInit {
     }
     uploadMultipartImagePicker(image: Picker.SelectedAsset): Subject<any> {
 
-        let  fileUri = image.fileUri;
+        let  fileUri = image.fileUri.replace("file://","");
 
         let request = {
             url: "http://httpbin.org/post",
