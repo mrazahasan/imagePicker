@@ -93,8 +93,8 @@ export class ItemsComponent implements OnInit {
                 }
                 else {
                     let folder = fs.knownFolders.documents();
-                    let path = fs.path.join(folder.path, "Temp" + Date.now() + ".jpg");
-                    let saved = image.saveToFile(path, "jpg");
+                    let path = fs.path.join(folder.path, "Temp" + Date.now() + ".png");
+                    let saved = image.saveToFile(path, "png");
                     console.log(saved);
                     if (saved) {
                         //use new image path
