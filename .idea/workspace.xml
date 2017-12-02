@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list id="5694358e-5cda-40ce-80ba-ccf9caa8d6ca" name="New changelist" comment="" />
     <list default="true" id="fe058161-7934-4920-81d3-95a521902f30" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/item/items.component.js" afterPath="$PROJECT_DIR$/app/item/items.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/item/items.component.ts" afterPath="$PROJECT_DIR$/app/item/items.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,12 +21,12 @@
       <file leaf-file-name="items.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/item/items.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
-              <caret line="52" column="88" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="88" />
+            <state relative-caret-position="407">
+              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
-                <marker date="1512222741000" expanded="true" signature="3985:5021" ph="..." />
-                <marker date="1512222741000" expanded="true" signature="5219:5494" ph="..." />
+                <marker date="1512222852000" expanded="true" signature="3891:4927" ph="..." />
+                <marker date="1512222852000" expanded="true" signature="5125:5400" ph="..." />
               </folding>
             </state>
           </provider>
@@ -215,7 +216,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9533000" />
+    <option name="totallyTimeSpent" value="9638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="1131" extended-state="6" />
@@ -375,8 +376,8 @@
           <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-            <marker date="1512222741000" expanded="true" signature="3985:5021" ph="..." />
-            <marker date="1512222741000" expanded="true" signature="5219:5494" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="3891:4927" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="5125:5400" ph="..." />
           </folding>
         </state>
       </provider>
@@ -387,8 +388,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-            <marker date="1512222741000" expanded="true" signature="3985:5021" ph="..." />
-            <marker date="1512222741000" expanded="true" signature="5219:5494" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="3891:4927" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="5125:5400" ph="..." />
           </folding>
         </state>
       </provider>
@@ -489,8 +490,8 @@
           <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-            <marker date="1512222741000" expanded="true" signature="3985:5021" ph="..." />
-            <marker date="1512222741000" expanded="true" signature="5219:5494" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="3891:4927" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="5125:5400" ph="..." />
           </folding>
         </state>
       </provider>
@@ -612,12 +613,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/item/items.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="52" column="88" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="88" />
+        <state relative-caret-position="407">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-            <marker date="1512222741000" expanded="true" signature="3985:5021" ph="..." />
-            <marker date="1512222741000" expanded="true" signature="5219:5494" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="3891:4927" ph="..." />
+            <marker date="1512222852000" expanded="true" signature="5125:5400" ph="..." />
           </folding>
         </state>
       </provider>

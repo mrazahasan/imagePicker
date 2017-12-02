@@ -8,7 +8,6 @@ import {Subject} from "rxjs/Subject";
 import {isAndroid} from "tns-core-modules/platform";
 import * as fs from "file-system";
 import * as imageSource from "image-source";
-import { Image } from 'ui/image';
 
 @Component({
     selector: "ns-items",
@@ -16,9 +15,6 @@ import { Image } from 'ui/image';
     templateUrl: "./items.component.html",
 })
 export class ItemsComponent implements OnInit {
-    private request : any;
-
-    private imageName : string;
     private UploadSession: Session;
     constructor(
 
@@ -144,7 +140,7 @@ export class ItemsComponent implements OnInit {
             description: `Uploading `
         };
 
-        let params = [{ name: "nameOfFile", filename: fileUri, mimeType: 'image/JPG' }];
+        let params = [{ name: "nameOfFile", filename: fileUri, mimeType: 'image/png' }];
         console.log(JSON.stringify(params));
 
         let subject = new Subject<any>();
