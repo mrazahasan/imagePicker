@@ -26,6 +26,7 @@
     "nativescript-background-http": "^3.1.0",
     "nativescript-camera": "^3.1.4",
     "nativescript-imagepicker": "^4.0.1",
+    "nativescript-mediafilepicker": "^1.0.4",
     "nativescript-theme-core": "~1.0.2",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~5.4.2",
