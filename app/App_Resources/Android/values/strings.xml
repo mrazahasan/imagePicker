@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Bol Game App</string>
     <string name="title_activity_kimera">Bol Game App</string>
+    <string name="facebook_app_id">130720960921063</string>
+    <string name="fb_login_protocol_scheme">fb130720960921063</string>
 </resources>
