@@ -4,6 +4,7 @@ import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
 import { ItemsComponent } from "./item/items.component";
+import {NotificationComponent} from "./notification/notification.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -21,7 +22,8 @@ import { ItemsComponent } from "./item/items.component";
     ],
     declarations: [
         AppComponent,
-        ItemsComponent
+        ItemsComponent,
+        NotificationComponent
     ],
     providers: [
 
