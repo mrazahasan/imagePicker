@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var firebase = require("nativescript-plugin-firebase");
-var NotificationComponent = (function () {
+var NotificationComponent = /** @class */ (function () {
     function NotificationComponent() {
         try {
             firebase.init({

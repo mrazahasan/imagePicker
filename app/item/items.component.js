@@ -8,7 +8,7 @@ var platform_1 = require("tns-core-modules/platform");
 var fs = require("file-system");
 var imageSource = require("image-source");
 var nativescript_mediafilepicker_1 = require("nativescript-mediafilepicker");
-var ItemsComponent = (function () {
+var ItemsComponent = /** @class */ (function () {
     function ItemsComponent() {
         this.UploadSession = nativescript_background_http_1.session('image-upload');
     }
