@@ -8,7 +8,7 @@
 android {  
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.nativescript.demoNgApp"  
+    applicationId = "com.bol.bolgameshow"
   }  
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
