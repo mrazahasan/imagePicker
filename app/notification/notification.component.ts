@@ -15,17 +15,17 @@ export class NotificationComponent implements OnInit {
             firebase.init({
                 onPushTokenReceivedCallback: (token: string) => {
                     console.log("Firebase push token: " + token);
-                },
-                onMessageReceivedCallback: (message: firebase.Message) => {
-                    console.log(`Title: ${message.title}`);
-                    console.log(`Body: ${message.body}`);
-                    // if your server passed a custom property called 'foo', then do this:
-                    console.log(`Value of 'foo': ${message.data.foo}`);
                 }
-
             }).then(
                 instance => {
                     console.log("firebase.init done");
+                    firebase.addOnMessageReceivedCallback((message: firebase.Message) => {
+                            console.log(`Title: ${message.title}`);
+                            console.log(`Body: ${message.body}`);
+                            // if your server passed a custom property called 'foo', then do this:
+                            console.log(`Value of 'payload': ${message.data.payload}`);
+                        }
+                    );
                 },
                 error => {
                     console.log(`firebase.init error: ${error}`);
