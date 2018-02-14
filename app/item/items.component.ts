@@ -33,10 +33,17 @@ export class ItemsComponent implements OnInit {
                 enableImagePicker: false,
                 enableVideoPicker: true,
                 enableCameraSupport: true
+            },
+            ios: {
+                allowsMultipleSelection: false,
+                title: "videos",
+                mediaTypes: "video",
+                showCameraButton: false
             }
         };
-        this.mediafilepicker = new Mediafilepicker();
-        this.mediafilepicker.on("getFiles",  (res: any) =>{
+        let mediafilepicker = new Mediafilepicker();
+
+        mediafilepicker.on("getFiles",  (res: any) =>{
 
             let files = res.files;
 
@@ -65,10 +72,12 @@ export class ItemsComponent implements OnInit {
             }
 
         });
-        this.mediafilepicker.on("error",  (res: any) => {
+
+        mediafilepicker.on("error",  (res: any) => {
             console.log(res.msg)
         });
-        this.mediafilepicker.startFilePicker(options);
+
+        mediafilepicker.startFilePicker(options);
     }
 
     cameraOpen(){
@@ -136,10 +145,16 @@ export class ItemsComponent implements OnInit {
                 enableImagePicker: true,
                 enableVideoPicker: false,
                 enableCameraSupport: true
+            },
+            ios: {
+                allowsMultipleSelection: false,
+                title: "Images",
+                mediaTypes: "image",
+                showCameraButton: false
             }
         };
-        this.mediafilepicker = new Mediafilepicker();
-        this.mediafilepicker.on("getFiles",  (res: any) =>{
+        let mediafilepicker = new Mediafilepicker();
+        mediafilepicker.on("getFiles",  (res: any) =>{
 
             let files = res.files;
 
@@ -168,10 +183,12 @@ export class ItemsComponent implements OnInit {
             }
 
         });
-        this.mediafilepicker.on("error",  (res: any) => {
+
+        mediafilepicker.on("error",  (res: any) => {
             console.log(res.msg)
         });
-        this.mediafilepicker.startFilePicker(options);
+
+        mediafilepicker.startFilePicker(options);
     }
 
 
@@ -185,7 +202,7 @@ export class ItemsComponent implements OnInit {
         if(mimetype === 'mp4'){
             uploadType = "video";
             request = {
-                url: "http://httpbin.org/post",
+                url: "https://requestb.in/1mf5ae31",
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/octet-stream",
@@ -201,7 +218,7 @@ export class ItemsComponent implements OnInit {
         else {
             uploadType = "image";
             request = {
-                url: "http://httpbin.org/post",
+                url: "https://requestb.in/1mf5ae31",
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/octet-stream",

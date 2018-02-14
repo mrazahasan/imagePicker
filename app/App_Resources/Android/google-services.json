@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "694804799688",
+    "firebase_url": "https://bol-game-show.firebaseio.com",
+    "project_id": "bol-game-show",
+    "storage_bucket": "bol-game-show.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694804799688:android:d5496a65e47d4c5a",
+        "android_client_info": {
+          "package_name": "com.bol.bolgameshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694804799688-plth1pl7g0btrcf11bvkt3dhvl1n1f7c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "694804799688-infg1f59bbm8f2ovt2emtpjoi7s50el5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "694804799688-etru9kcmhv2j4g9nptu41br4ivok1ior.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bol.bolgameshow",
+            "certificate_hash": "ad97a29a5048c2f6c7b9c28663a5040f0180fc28"
+          }
+        },
+        {
+          "client_id": "694804799688-7mvmib2bvbhtfi2ol71q85behfti1rmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bol.bolgameshow",
+            "certificate_hash": "b9bf88cb8f9f8a58109acd6b390a501f5ce1e3ed"
+          }
+        },
+        {
+          "client_id": "694804799688-tesn1vuts4djahsd9m416dvo3naioii5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bol.bolgameshow",
+            "certificate_hash": "563d88f60972eb1775f7e2db4f424b187e2a4d20"
+          }
+        },
+        {
+          "client_id": "694804799688-20gu90tfbkc4466v4steacc08ps3l55u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bol.bolgameshow",
+            "certificate_hash": "c81467283e8727af6ba6b82a80115fae5f2dd79b"
+          }
+        },
+        {
+          "client_id": "694804799688-2g2vvje6mko4hdmac5dsp3te98d6sa0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bol.bolgameshow",
+            "certificate_hash": "47913a15ae6be3bb26a82408697712665244b108"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeDLbMwoGdcEHAVV7PASdX1VPuFZJxBHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694804799688-gjj4po7gsbm6fja5atmaspih4ri9clm9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bol.gameshowAdvanced"
+              }
+            },
+            {
+              "client_id": "694804799688-plth1pl7g0btrcf11bvkt3dhvl1n1f7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
